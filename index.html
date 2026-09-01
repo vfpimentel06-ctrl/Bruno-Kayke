@@ -122,25 +122,32 @@
   <!-- HEADER -->
   <header id="header">
     <div class="container header-container">
-      <a href="#hero" class="header-logo" aria-label="Bruno Kayke Tattoo - Página Inicial">
-        <img src="assets/images/logo.jpg" alt="Emblema Bruno Kayke Tattoo" class="logo-badge" width="50" height="50">
+      <a href="#hero" class="header-logo" aria-label="Página Inicial Bruno Kayke Tattoo">
+        <picture>
+          <source srcset="assets/images/logo.webp" type="image/webp">
+          <img src="assets/images/logo.jpg" alt="Bruno Kayke Tattoo Logo" class="logo-badge" width="48" height="48">
+        </picture>
       </a>
 
-      <nav class="desktop-nav" aria-label="Navegação Principal">
-        <a href="#hero" class="nav-link active">Home</a>
-        <a href="#portfolio" class="nav-link">Portfólio</a>
-        <a href="#estudio" class="nav-link">Estúdio</a>
-        <a href="#sobre" class="nav-link">Sobre</a>
-        <a href="#avaliacoes" class="nav-link">Avaliações</a>
-        <a href="#contato" class="nav-link">Contato</a>
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links desktop-nav">
+        <a href="#hero" class="nav-link active">HOME</a>
+        <a href="#portfolio" class="nav-link">PORTFÓLIO</a>
+        <a href="#estudio" class="nav-link">ESTÚDIO</a>
+        <a href="#sobre" class="nav-link">SOBRE</a>
+        <a href="#avaliacoes" class="nav-link">DEPOIMENTOS</a>
+        <a href="#contato" class="nav-link">CONTATO</a>
       </nav>
 
       <div class="header-cta-wrapper">
-        <a href="https://wa.me/5511974824443?text=Ol%C3%A1%2C%20Bruno!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold header-cta btn-whatsapp-trigger">
-          <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        <a href="https://wa.me/5511974824443?text=Ol%C3%A1%2C%20Bruno!%20Vi%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20tatuagem." target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold header-cta btn-whatsapp-trigger">
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
           </svg>
-          Solicitar Orçamento
+          <span>AGENDAR SESSÃO</span>
         </a>
       </div>
 
@@ -159,16 +166,19 @@
       <a href="#portfolio" class="mobile-nav-link">Portfólio</a>
       <a href="#estudio" class="mobile-nav-link">Estúdio</a>
       <a href="#sobre" class="mobile-nav-link">Sobre</a>
-      <a href="#avaliacoes" class="mobile-nav-link">Avaliações</a>
+      <a href="#avaliacoes" class="mobile-nav-link">Depoimentos</a>
       <a href="#contato" class="mobile-nav-link">Contato</a>
     </div>
 
     <div class="mobile-drawer-footer">
-      <a href="https://wa.me/5511974824443?text=Ol%C3%A1%2C%20Bruno!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn btn-primary-gold btn-whatsapp-trigger" style="width:100%;">
-        <svg class="btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      <a href="https://wa.me/5511974824443?text=Ol%C3%A1%2C%20Bruno!%20Vi%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20tatuagem." target="_blank" rel="noopener noreferrer" class="btn btn-primary-gold btn-whatsapp-trigger" style="width:100%;">
+        <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        Solicitar Orçamento
+        <span>Agendar Sessão</span>
       </a>
       <div style="font-size:0.8rem;color:var(--text-muted);text-align:center;margin-top:0.8rem;">
         @brunokayketattoo

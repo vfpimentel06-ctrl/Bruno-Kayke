@@ -96,12 +96,11 @@ body {
 img, video {
   max-width: 100%;
   height: auto;
+  display: block;
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
   user-select: none;
   pointer-events: auto;
-}
-  display: block;
 }
 
 a {
@@ -282,21 +281,20 @@ button {
 .header-logo {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
 }
 
 .logo-badge {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid var(--gold-border);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: transform var(--transition-fast), border-color var(--transition-fast);
 }
 
 .header-logo:hover .logo-badge {
   transform: scale(1.05);
-  border-color: var(--gold);
+  border-color: #FFFFFF;
 }
 
 .desktop-nav {
@@ -306,11 +304,11 @@ button {
 }
 
 .nav-link {
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--text-silver);
+  color: #A3A3A3;
   position: relative;
   padding: 0.4rem 0;
   transition: color var(--transition-fast);
@@ -323,12 +321,12 @@ button {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--gold);
+  background: #FFFFFF;
   transition: width var(--transition-smooth);
 }
 
 .nav-link:hover, .nav-link.active {
-  color: var(--text-white);
+  color: #FFFFFF;
 }
 
 .nav-link:hover::after, .nav-link.active::after {
@@ -342,8 +340,27 @@ button {
 }
 
 .header-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   padding: 0.65rem 1.4rem;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: var(--radius-sm);
+  background: rgba(10, 10, 10, 0.6);
+  color: #FFFFFF;
+  transition: all var(--transition-fast);
+}
+
+.header-cta:hover {
+  background: #FFFFFF;
+  color: #000000;
+  border-color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
 
 .hamburger {
