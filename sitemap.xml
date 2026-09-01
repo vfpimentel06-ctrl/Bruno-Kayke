@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://brunokayketattoo.com.br/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://brunokayketattoo.com.br/assets/images/og-image.jpg</image:loc>
+      <image:title>Bruno Kayke Tattoo — Tatuador Especialista em Realismo Preto e Cinza Barueri e Alphaville</image:title>
+    </image:image>
+  </url>
+</urlset>

@@ -1,0 +1,6 @@
+# Robots.txt for Bruno Kayke Tattoo
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://brunokayketattoo.com.br/sitemap.xml
