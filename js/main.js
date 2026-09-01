@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ==========================================================================
-  // 6. CARROSSEL DE DEPOIMENTOS PAGINADO
+  // 6. CARROSSEL DE AVALIAÇÕES PAGINADO
   // ==========================================================================
   const prevBtn = document.querySelector('.carousel-prev');
   const nextBtn = document.querySelector('.carousel-next');

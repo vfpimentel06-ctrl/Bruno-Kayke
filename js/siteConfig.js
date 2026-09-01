@@ -30,8 +30,14 @@ const siteConfig = {
       street: "Avenida Anápolis, 100",
       neighborhood: "Vila Pouso Alegre",
       city: "Barueri",
+      state: "SP",
+      zipCode: "06404-250",
+      country: "Brasil",
       formatted: "Avenida Anápolis, 100, Vila Pouso Alegre, Barueri SP, 06404-250, Brasil"
     },
+    businessHours: {
+      weekdays: "Segunda a Sexta: 10h às 20h",
+      saturday: "Sábado: 10h às 16h",
       sunday: "Domingo: Fechado"
     }
   },
@@ -75,7 +81,7 @@ const siteConfig = {
       category: "realismo",
       categoryLabel: "Realismo / Esculturas",
       image: "assets/images/portfolio/01-realismo-esculturas.webp",
-      imageFallback: "assets/images/portfolio/01-realismo-esculturas.png.png",
+      imageFallback: "assets/images/portfolio/01-realismo-esculturas.jpg",
       description: "Sombreamento anatômico e volumetria de mármore em preto e cinza."
     },
     {
@@ -84,7 +90,7 @@ const siteConfig = {
       category: "projetos-grandes",
       categoryLabel: "Projetos Grandes",
       image: "assets/images/portfolio/02-pretp-cinza-oni.webp",
-      imageFallback: "assets/images/portfolio/02-pretp-cinza-oni.png",
+      imageFallback: "assets/images/portfolio/02-pretp-cinza-oni.jpg",
       description: "Fechamento de alto impacto visual e contraste refinado."
     },
     {
@@ -93,7 +99,7 @@ const siteConfig = {
       category: "retratos",
       categoryLabel: "Retratos / Chicano",
       image: "assets/images/portfolio/03-realismo-chicano.webp",
-      imageFallback: "assets/images/portfolio/03-realismo-chicano.png",
+      imageFallback: "assets/images/portfolio/03-realismo-chicano.jpg",
       description: "Retrato feminino de alta sensibilidade, penas e adornos detalhados."
     },
     {
@@ -102,7 +108,7 @@ const siteConfig = {
       category: "retratos",
       categoryLabel: "Retratos",
       image: "assets/images/portfolio/04-realismo-retrato.webp",
-      imageFallback: "assets/images/portfolio/04-realismo-retrato.png",
+      imageFallback: "assets/images/portfolio/04-realismo-retrato.jpg",
       description: "Precisão nos traços e fidelidade fotográfica na transição de tons."
     },
     {
@@ -111,7 +117,7 @@ const siteConfig = {
       category: "preto-cinza",
       categoryLabel: "Preto e Cinza",
       image: "assets/images/portfolio/05-realismo.webp",
-      imageFallback: "assets/images/portfolio/05-realismo.png",
+      imageFallback: "assets/images/portfolio/05-realismo.jpg",
       description: "Degradês límpidos e sombras aveludadas com encaixe anatômico perfeito."
     },
     {
@@ -120,7 +126,7 @@ const siteConfig = {
       category: "realismo",
       categoryLabel: "Realismo",
       image: "assets/images/portfolio/07-realismo.webp",
-      imageFallback: "assets/images/portfolio/07-realismo.png",
+      imageFallback: "assets/images/portfolio/07-realismo.jpg",
       description: "Tridimensionalidade e precisão milimétrica que valorizam o corpo."
     }
   ],
