@@ -30,6 +30,21 @@ document.addEventListener('DOMContentLoaded', () => {
     threshold: 0
   };
 
+  let currentActiveId = null;
+
+  const updateActiveNav = (id) => {
+    if (id === currentActiveId) return;
+    currentActiveId = id;
+    navLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href === `#${id}`) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  };
+
   const sectionObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -41,11 +56,21 @@ document.addEventListener('DOMContentLoaded', () => {
             link.classList.remove('active');
           }
         });
+        updateActiveNav(entry.target.getAttribute('id'));
       }
     });
   }, observerOptions);
 
   sections.forEach(sec => sectionObserver.observe(sec));
+
+  // Detectar fundo da página para ativar "contato" (última seção)
+  window.addEventListener('scroll', () => {
+    const scrollBottom = window.innerHeight + window.scrollY;
+    const docHeight = document.documentElement.scrollHeight;
+    if (docHeight - scrollBottom < 100) {
+      updateActiveNav('contato');
+    }
+  }, { passive: true });
 
   // ==========================================================================
   // 2. MENU MOBILE DRAWER
